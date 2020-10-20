@@ -10,7 +10,7 @@ def main():
 	t2 = [[t[j][i] for j in range(len(t))] for i in range(len(t[0]))] 
 	print("Ispis transponirane matrice:")
 	[print(r) for r in t2]
-	print(f"Matrica {"ni" if not t == t2}je simetrična.")
+	print(f"Matrica {'ni' if not t == t2 else ''}je simetrična.")
 
 
 
