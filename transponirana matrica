@@ -7,4 +7,38 @@
 ##  2x3   ->  3x2
 
 
-## simetricanakvadratna matrica je jednaka svoj transpoziciji
+## simetricna kvadratna matrica je jednaka svoj transpoziciji
+
+
+## antisimetricna
+
+## [0  1  2]
+## [-1 0  3]   -   jednaka je negativnoj transpoziciji (a[i,j] -> -a[j,i])
+## [-2 -3 0]
+
+## dijagonalna
+
+
+## [1 0 0]
+## [0 2 0]   -   brojevi samo na dijagonalama
+## [0 0 3]
+
+
+## jedinicna
+
+## [1 0 0]
+## [0 1 0]   -   dijagonalna s jednicima
+## [0 0 1]
+
+
+## gornje trouktasta
+
+## [1 2 3]
+## [0 2 3]   -   nule ispod dijagonale
+## [0 0 1]
+
+## donje trokutasta
+
+## [1 0 0]
+## [1 2 0]   -   nule iznad dijagonale
+## [1 3 2]
