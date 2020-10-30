@@ -56,4 +56,18 @@
 
 ## Determinanta
 
+## II. reda
+
 ## funkicja definirana na skupu svih kvadratnih matrica
+
+## [a00 a01]
+## [a10 a11]  = a00 * a11 - a10 * a01
+
+
+## III. reda
+
+## koristi se Sarrusovo pravilo
+
+## [a00 a01 a02] a00 a01
+## [a10 a11 a12] a10 a11   = a00 * a11 * a22  +  a01 * a12 * a20  +  a02 * a10 * a21  -  (a20 * a11 * a02  +  a21 * a12 * a00  +  a22 * a10 * a01)
+## [a20 a21 a22] a20 a21
