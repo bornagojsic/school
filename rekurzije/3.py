@@ -26,7 +26,7 @@ def f(x):
 		return -(f(x-3) + 1)
 	elif x <= 4:
 		return x + 4
-	return f(x + 2) + 1
+	return f(x+2) + 1
 
 print(f"f(12) = {f(12)}")
 
