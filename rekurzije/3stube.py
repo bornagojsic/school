@@ -9,6 +9,6 @@ def f(n):
 	'''
 	if n in [1,2,3]:
 		return 2**(n-1)
-	return f(n-1) + f(n-2) + f(n-3) + f(n-4)
+	return f(n-1) + f(n-2) + f(n-3)
 
 print(f"REZULTAT: { f( int( input( 'UPISI N: ' ) ) ) }")
